@@ -1,115 +1,88 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-gray-200 {
+    background: #e5e7eb;
+}
+
+.px-2 {
+    padding: 0px 8px;
+}
+
+.text-2xl {
+    font-size: 70px;
+}
+
+.text-indigo-700 {
+    color: #432dd7;
+}
+
+.text-gray-500 {
+    color: #6a7282;
+}
+
+.ml-5{
+    margin-left: 30px;
+}
+
+.mt-5{
+    margin-top: 200px;
+}
+
+.mt-3 {
+    margin-top: 12px;
+}
+
+.mt-7{
+    margin-top: 28px;
+}
+
+.flex {
+    display: flex;
+}
+
+.ml-2{
+    margin-left:8px;
+}
+
+.m-3 {
+    margin: 12px;
+}
+
+.p{
+    padding: 12px 24px;
+}
+
+.bg-indigo-700 {
+    background-color: #4338ca;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-white{
+    background: white;
+}
+
+.h-screen {
   height: 100vh;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 2rem;
-  height: 80%;
+.border{
+    border: none;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.border-radius{
+    border-radius: 5px;
 }
 
-.p-4 {
-  padding: 1rem;
+.object-cover {
+  object-fit: cover;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-}
-
-.text-6xl {
-  font-size: 60px;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  font-weight: 700;
-}
-
-.text-gray {
-  color: #555;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-purple {
-  color: #6C63FF;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.btn {
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.btn-primary {
-  background-color: #6C63FF;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #5548cc;
-}
-
-.btn-outline {
-  background: white;
-  color: #333;
-  border: 1px solid #ddd;
-}
-
-.btn-outline:hover {
-  background: #f3f3f3;
-}
-
-.img-cover {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .text-4xl {
-    font-size: 1.75rem;
-  }
+.width{
+    width: 50vw ;
 }
